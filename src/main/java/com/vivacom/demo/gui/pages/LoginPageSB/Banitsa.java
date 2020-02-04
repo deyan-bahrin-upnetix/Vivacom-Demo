@@ -27,5 +27,10 @@ public class Banitsa extends AbstractPage {
         banitsaOnBites.click();
         return new BanitsaOnBites(getDriver());
     }
+    
+        public void exitFromSystem(){
+        profileButton.click();
+        exitBtn.click();
+    }
 
 }
