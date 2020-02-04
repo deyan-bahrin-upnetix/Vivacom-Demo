@@ -22,7 +22,7 @@ public class MainPageSB extends AbstractPage {
 
 
     /*This method check for Профил btn in mainPage*/
-    public boolean selectProfile(){
+    public boolean isProfileSelected(){
         return profile.isVisible();
 
     }

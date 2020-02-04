@@ -112,7 +112,6 @@ public class DeliveryDetails extends AbstractPage {
             String elementValue = element.getText();
             if ((hour + ":" + minutes).equals(elementValue)) {
                 element.click();
-                WebDriverWait wait = new WebDriverWait(driver, 5);
                 break;
             }
         }

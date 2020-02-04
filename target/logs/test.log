@@ -149,3 +149,3389 @@ capabilities.unhandledPromptBehavior=accept
 2020-02-04 14:21:06 Messager [INFO] INFO: '**************** Test execution summary ****************'.
 2020-02-04 14:21:06 Messager [INFO] RESULT #1: TEST [vivacom-demo - SofiaBTest] PASS [screenshots={must_override}/1580818775710/6f7df843-49f0-46cc-89dd-a954cd1d1cff/report.html | log={must_override}/1580818775710/6f7df843-49f0-46cc-89dd-a954cd1d1cff/test.log]
 2020-02-04 14:21:06 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 15:18:18 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 15:18:18 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 15:18:18 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 15:18:23 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 15:18:23 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [15:18:23 2020-02-04]
+2020-02-04 15:18:23 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 15:18:24 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 15:18:27 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 15:18:29 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 15:18:31 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 15:18:33 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 15:18:34 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 15:18:36 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 15:18:43 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 15:18:46 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 15:18:48 DriverListener [INFO] PASS: element 'takeBanitsaPaio90Btn' is clicked.
+2020-02-04 15:18:50 DriverListener [INFO] PASS: element 'takeBanitsaWithBaconAndCheeseBtn' is clicked.
+2020-02-04 15:18:52 DriverListener [INFO] PASS: element 'ordersPage' is clicked.
+2020-02-04 15:18:54 DriverListener [INFO] PASS: element 'ordersDetailsBtn' is clicked.
+2020-02-04 15:19:16 DriverListener [INFO] PASS: keys cleared in element 'clietNeighborhoodBox'.
+2020-02-04 15:19:18 DriverListener [INFO] PASS: keys 'Люлин' are sent to element 'clietNeighborhoodBox'.
+2020-02-04 15:19:20 DriverListener [INFO] PASS: keys cleared in element 'clientAdressBox'.
+2020-02-04 15:19:21 DriverListener [INFO] PASS: keys 'ул.Борис 3' are sent to element 'clientAdressBox'.
+2020-02-04 15:19:23 DriverListener [INFO] PASS: element 'selectDateAndTime' is clicked.
+2020-02-04 15:19:26 DriverListener [INFO] PASS: element '5' is clicked.
+2020-02-04 15:19:28 DriverListener [INFO] PASS: element '13:00' is clicked.
+2020-02-04 15:19:30 DriverListener [INFO] PASS: element '13:20' is clicked.
+2020-02-04 15:19:32 DriverListener [INFO] PASS: element 'finishOrderBtn' is clicked.
+2020-02-04 15:19:35 DriverListener [INFO] PASS: element 'backToProdcutsBtn' is clicked.
+2020-02-04 15:19:36 DriverListener [INFO] PASS: element 'orderIsEmptyBtn' is clicked.
+2020-02-04 15:19:39 DriverListener [INFO] PASS: element 'profileButton' is clicked.
+2020-02-04 15:19:41 DriverListener [INFO] PASS: element 'exitBtn' is clicked.
+2020-02-04 15:19:42 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] PASSED at [15:19:42 2020-02-04]
+2020-02-04 15:19:45 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 15:19:45 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-04 15:19:45 Messager [INFO] RESULT #1: TEST [vivacom-demo - SofiaBTest] PASS [screenshots={must_override}/1580822298295/e70cfc9f-e4a6-456d-81ae-37e1095231c6/report.html | log={must_override}/1580822298295/e70cfc9f-e4a6-456d-81ae-37e1095231c6/test.log]
+2020-02-04 15:19:45 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 19:31:37 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 19:31:37 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 19:31:37 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 19:31:43 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 19:31:43 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [19:31:43 2020-02-04]
+2020-02-04 19:31:43 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 19:31:45 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 19:31:48 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 19:31:50 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 19:31:52 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 19:31:54 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 19:31:57 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 19:32:00 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 19:32:13 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 19:32:16 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 19:32:21 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 19:32:33 Messager [ERROR]  TEST [vivacom-demo - SofiaBTest] FAILED at [19:32:33 2020-02-04] - The product does not exist in the shopping cart expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.vivacom.demo.SofiaSbTest.SofiaBTest(SofiaSbTest.java:51)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2020-02-04 19:32:45 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 19:32:45 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-04 19:32:45 Messager [INFO] RESULT #1: TEST [vivacom-demo - SofiaBTest] FAIL [screenshots={must_override}/1580837497812/e005822c-c5d3-4a9b-a133-2168738796da/report.html | log={must_override}/1580837497812/e005822c-c5d3-4a9b-a133-2168738796da/test.log]
+2020-02-04 19:32:45 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 19:33:10 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 19:33:10 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 19:33:10 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 19:33:17 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 19:33:17 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 19:33:17 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 19:33:23 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 19:33:23 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [19:33:23 2020-02-04]
+2020-02-04 19:33:23 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 19:33:27 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 19:33:30 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 19:33:32 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 19:33:34 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 19:33:36 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 19:33:38 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 19:33:41 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 19:33:51 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 19:33:54 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 19:34:45 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 19:36:45 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 19:36:45 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 19:36:45 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 19:36:50 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 19:36:50 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [19:36:50 2020-02-04]
+2020-02-04 19:36:50 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 19:36:53 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 19:36:56 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 19:36:58 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 19:37:00 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 19:37:03 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 19:37:05 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 19:37:07 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 19:37:19 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 19:37:22 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 19:38:24 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 19:38:58 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 19:39:05 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 19:39:05 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 19:39:05 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 19:39:11 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 19:39:11 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [19:39:11 2020-02-04]
+2020-02-04 19:39:11 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 19:39:14 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 19:39:17 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 19:39:19 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 19:39:22 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 19:39:25 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 19:39:28 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 19:39:30 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 19:39:42 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 19:39:46 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 19:39:49 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 19:39:53 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 19:39:58 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 19:40:01 Messager [ERROR]  TEST [vivacom-demo - SofiaBTest] FAILED at [19:40:01 2020-02-04] - no such element: Unable to locate element: {"method":"css selector","selector":"input[type='number']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'UXLT008', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\DEYAN~1.BAH\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63465}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webdriver.remote.sessionid: f73f45c9b0e03edb2d09055b56d...}
+Session ID: f73f45c9b0e03edb2d09055b56d94a4c
+*** Element info: {Using=css selector, value=input[type='number']}
+
+sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringSeleniumCommandExecutor.execute(EventFiringSeleniumCommandExecutor.java:49)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+org.openqa.selenium.remote.RemoteWebElement.findElementByCssSelector(RemoteWebElement.java:253)
+org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy23.findElement(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.findElement(EventFiringWebDriver.java:496)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.findExtendedWebElement(ExtendedWebElement.java:1040)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.findExtendedWebElement(ExtendedWebElement.java:1001)
+com.vivacom.demo.gui.pages.LoginPageSB.OrdersPage.getCartDetails(OrdersPage.java:57)
+com.vivacom.demo.SofiaSbTest.SofiaBTest(SofiaSbTest.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2020-02-04 19:40:05 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 19:40:05 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-04 19:40:05 Messager [INFO] RESULT #1: TEST [vivacom-demo - SofiaBTest] FAIL [screenshots={must_override}/1580837945521/96ff86e6-d4dc-4ebd-a80c-b1d390dd3c0d/report.html | log={must_override}/1580837945521/96ff86e6-d4dc-4ebd-a80c-b1d390dd3c0d/test.log]
+2020-02-04 19:40:05 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 19:42:57 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 19:42:57 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 19:42:57 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 19:43:02 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 19:43:02 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [19:43:02 2020-02-04]
+2020-02-04 19:43:02 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 19:43:07 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 19:43:09 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 19:43:11 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 19:43:13 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 19:43:15 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 19:43:18 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 19:43:20 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 19:43:36 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 19:43:39 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 19:43:46 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 19:43:49 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 19:43:53 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 19:47:10 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 19:47:21 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 19:47:22 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 19:47:22 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 19:47:29 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 19:47:29 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [19:47:29 2020-02-04]
+2020-02-04 19:47:29 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 19:47:34 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 19:47:37 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 19:47:41 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 19:47:45 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 19:47:48 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 19:47:51 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 19:47:54 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 19:48:07 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 19:48:09 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 19:48:16 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 19:48:21 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 19:48:25 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 19:50:32 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 19:50:44 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 19:50:44 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 19:50:44 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 19:50:51 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 19:50:51 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [19:50:51 2020-02-04]
+2020-02-04 19:50:51 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 19:50:55 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 19:50:58 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 19:51:02 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 19:51:06 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 19:51:10 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 19:51:14 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 19:51:18 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 19:51:38 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 19:51:42 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 19:51:51 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 19:51:55 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 19:52:00 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 19:56:41 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 19:56:55 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 19:56:55 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 19:56:55 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 19:57:01 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 19:57:01 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [19:57:01 2020-02-04]
+2020-02-04 19:57:02 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 19:57:05 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 19:57:09 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 19:57:13 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 19:57:16 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 19:57:20 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 19:57:23 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 19:57:26 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 19:57:45 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 19:57:48 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 19:58:01 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 19:58:04 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 19:58:07 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 19:59:12 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 19:59:17 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 19:59:18 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 19:59:18 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 19:59:23 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 19:59:23 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [19:59:23 2020-02-04]
+2020-02-04 19:59:23 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 20:00:12 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 20:00:23 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 20:00:25 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 20:00:27 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 20:00:28 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 20:00:30 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 20:00:32 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 20:01:20 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 20:01:58 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 20:01:58 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 20:01:58 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 20:02:03 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:02:03 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [20:02:03 2020-02-04]
+2020-02-04 20:02:03 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 20:02:07 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 20:02:10 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 20:02:12 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 20:02:14 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 20:02:15 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 20:02:17 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 20:02:19 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 20:02:52 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 20:02:56 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 20:03:01 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:03:04 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:03:07 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 20:06:54 Messager [ERROR]  TEST [vivacom-demo - SofiaBTest] FAILED at [20:06:54 2020-02-04] - no such element: Unable to locate element: {"method":"css selector","selector":"span.quantity>input"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'UXLT008', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\DEYAN~1.BAH\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:65247}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webdriver.remote.sessionid: 9666cb64ae8bd7059f73aaadc37...}
+Session ID: 9666cb64ae8bd7059f73aaadc37c8769
+*** Element info: {Using=css selector, value=span.quantity>input}
+
+sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringSeleniumCommandExecutor.execute(EventFiringSeleniumCommandExecutor.java:49)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+org.openqa.selenium.remote.RemoteWebElement.findElementByCssSelector(RemoteWebElement.java:253)
+org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+sun.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy23.findElement(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.findElement(EventFiringWebDriver.java:496)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.findExtendedWebElement(ExtendedWebElement.java:1040)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.findExtendedWebElement(ExtendedWebElement.java:1001)
+com.vivacom.demo.gui.pages.LoginPageSB.OrdersPage.getCartDetails(OrdersPage.java:57)
+com.vivacom.demo.SofiaSbTest.SofiaBTest(SofiaSbTest.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2020-02-04 20:06:58 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:06:58 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-04 20:06:58 Messager [INFO] RESULT #1: TEST [vivacom-demo - SofiaBTest] FAIL [screenshots={must_override}/1580839318832/583d6b01-2014-4ca8-9919-a3dfb39f3bfc/report.html | log={must_override}/1580839318832/583d6b01-2014-4ca8-9919-a3dfb39f3bfc/test.log]
+2020-02-04 20:06:58 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 20:08:29 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 20:08:29 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 20:08:29 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 20:08:34 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:08:34 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [20:08:34 2020-02-04]
+2020-02-04 20:08:34 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 20:08:37 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 20:08:39 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 20:08:41 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 20:08:43 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 20:08:45 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 20:08:47 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 20:08:49 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 20:08:59 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 20:09:02 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 20:09:09 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:09:11 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:09:14 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 20:09:54 Messager [ERROR]  TEST [vivacom-demo - SofiaBTest] FAILED at [20:09:54 2020-02-04] - no such element: Unable to locate element: {"method":"css selector","selector":"span.quantity>input"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'UXLT008', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\DEYAN~1.BAH\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webdriver.remote.sessionid: 8d9ddf291fc05d247c1f6bb95d9...}
+Session ID: 8d9ddf291fc05d247c1f6bb95d9ef8f3
+*** Element info: {Using=css selector, value=span.quantity>input}
+
+sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringSeleniumCommandExecutor.execute(EventFiringSeleniumCommandExecutor.java:49)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+org.openqa.selenium.remote.RemoteWebElement.findElementByCssSelector(RemoteWebElement.java:253)
+org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy23.findElement(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.findElement(EventFiringWebDriver.java:496)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.findExtendedWebElement(ExtendedWebElement.java:1040)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.findExtendedWebElement(ExtendedWebElement.java:1001)
+com.vivacom.demo.gui.pages.LoginPageSB.OrdersPage.getCartDetails(OrdersPage.java:57)
+com.vivacom.demo.SofiaSbTest.SofiaBTest(SofiaSbTest.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2020-02-04 20:10:03 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 20:10:03 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 20:10:03 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 20:10:08 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:10:08 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [20:10:08 2020-02-04]
+2020-02-04 20:10:08 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 20:10:17 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 20:10:22 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 20:10:24 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 20:10:27 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 20:10:28 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 20:10:30 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 20:10:32 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 20:10:43 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 20:10:54 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 20:10:54 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 20:10:54 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 20:11:00 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:11:00 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [20:11:00 2020-02-04]
+2020-02-04 20:11:00 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 20:11:06 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 20:11:08 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 20:11:10 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 20:11:12 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 20:11:14 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 20:11:16 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 20:11:17 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 20:11:37 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 20:11:40 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 20:11:45 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:11:47 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:11:50 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 20:12:18 Messager [ERROR]  TEST [vivacom-demo - SofiaBTest] FAILED at [20:12:18 2020-02-04] - no such element: Unable to locate element: {"method":"css selector","selector":"span.quantity>input"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'UXLT008', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\DEYAN~1.BAH\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webdriver.remote.sessionid: 3cce22f2fddcdca06b936cd96d7...}
+Session ID: 3cce22f2fddcdca06b936cd96d7481df
+*** Element info: {Using=css selector, value=span.quantity>input}
+
+sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringSeleniumCommandExecutor.execute(EventFiringSeleniumCommandExecutor.java:49)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+org.openqa.selenium.remote.RemoteWebElement.findElementByCssSelector(RemoteWebElement.java:253)
+org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+sun.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy23.findElement(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.findElement(EventFiringWebDriver.java:496)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.findExtendedWebElement(ExtendedWebElement.java:1040)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.findExtendedWebElement(ExtendedWebElement.java:1001)
+com.vivacom.demo.gui.pages.LoginPageSB.OrdersPage.getCartDetails(OrdersPage.java:57)
+com.vivacom.demo.SofiaSbTest.SofiaBTest(SofiaSbTest.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2020-02-04 20:12:21 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:12:22 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-04 20:12:22 Messager [INFO] RESULT #1: TEST [vivacom-demo - SofiaBTest] FAIL [screenshots={must_override}/1580839854697/91dff4a4-0a77-404b-b363-0d40a04fc334/report.html | log={must_override}/1580839854697/91dff4a4-0a77-404b-b363-0d40a04fc334/test.log]
+2020-02-04 20:12:22 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 20:13:49 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 20:13:49 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 20:13:49 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 20:13:54 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:13:54 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [20:13:54 2020-02-04]
+2020-02-04 20:13:54 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 20:13:58 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 20:14:01 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 20:14:02 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 20:14:04 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 20:14:06 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 20:14:08 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 20:14:10 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 20:14:20 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 20:14:22 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 20:14:31 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:14:33 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:14:37 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 20:22:10 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 20:22:18 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 20:22:18 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 20:22:18 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 20:22:23 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:22:23 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [20:22:23 2020-02-04]
+2020-02-04 20:22:23 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 20:22:25 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 20:22:27 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 20:22:29 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 20:22:31 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 20:22:32 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 20:22:34 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 20:22:36 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 20:23:03 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 20:23:05 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 20:23:10 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:23:13 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:23:15 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 20:23:32 DriverListener [INFO] PASS: element 'ordersDetailsBtn' is clicked.
+2020-02-04 20:23:54 DriverListener [INFO] PASS: keys cleared in element 'clietNeighborhoodBox'.
+2020-02-04 20:23:55 DriverListener [INFO] PASS: keys 'Люлин' are sent to element 'clietNeighborhoodBox'.
+2020-02-04 20:23:57 DriverListener [INFO] PASS: keys cleared in element 'clientAdressBox'.
+2020-02-04 20:23:58 DriverListener [INFO] PASS: keys 'ул.Борис 3' are sent to element 'clientAdressBox'.
+2020-02-04 20:24:00 DriverListener [INFO] PASS: element 'selectDateAndTime' is clicked.
+2020-02-04 20:24:03 DriverListener [INFO] PASS: element '5' is clicked.
+2020-02-04 20:24:05 DriverListener [INFO] PASS: element '11:00' is clicked.
+2020-02-04 20:24:07 DriverListener [INFO] PASS: element 'finishOrderBtn' is clicked.
+2020-02-04 20:24:12 Messager [ERROR]  TEST [vivacom-demo - SofiaBTest] FAILED at [20:24:12 2020-02-04] - Order is not ok expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.vivacom.demo.SofiaSbTest.SofiaBTest(SofiaSbTest.java:64)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2020-02-04 20:24:15 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:24:15 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-04 20:24:15 Messager [INFO] RESULT #1: TEST [vivacom-demo - SofiaBTest] FAIL [screenshots={must_override}/1580840538309/0d2d3f0c-88f7-4409-a9b2-0ddc445eeb17/report.html | log={must_override}/1580840538309/0d2d3f0c-88f7-4409-a9b2-0ddc445eeb17/test.log]
+2020-02-04 20:24:15 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 20:24:21 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 20:24:21 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 20:24:21 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 20:24:26 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:24:26 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [20:24:26 2020-02-04]
+2020-02-04 20:24:26 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 20:24:35 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 20:24:37 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 20:24:39 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 20:24:41 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 20:24:43 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 20:24:44 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 20:24:46 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 20:25:00 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 20:25:02 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 20:25:04 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:25:06 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:25:11 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 20:25:12 DriverListener [INFO] PASS: element 'ordersDetailsBtn' is clicked.
+2020-02-04 20:25:34 DriverListener [INFO] PASS: keys cleared in element 'clietNeighborhoodBox'.
+2020-02-04 20:25:36 DriverListener [INFO] PASS: keys 'Люлин' are sent to element 'clietNeighborhoodBox'.
+2020-02-04 20:25:37 DriverListener [INFO] PASS: keys cleared in element 'clientAdressBox'.
+2020-02-04 20:25:39 DriverListener [INFO] PASS: keys 'ул.Борис 3' are sent to element 'clientAdressBox'.
+2020-02-04 20:25:41 DriverListener [INFO] PASS: element 'selectDateAndTime' is clicked.
+2020-02-04 20:25:43 DriverListener [INFO] PASS: element '5' is clicked.
+2020-02-04 20:25:46 DriverListener [INFO] PASS: element '12:00' is clicked.
+2020-02-04 20:25:48 DriverListener [INFO] PASS: element 'finishOrderBtn' is clicked.
+2020-02-04 20:25:53 Messager [ERROR]  TEST [vivacom-demo - SofiaBTest] FAILED at [20:25:53 2020-02-04] - Order is not ok expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.vivacom.demo.SofiaSbTest.SofiaBTest(SofiaSbTest.java:64)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2020-02-04 20:25:56 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:25:56 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-04 20:25:56 Messager [INFO] RESULT #1: TEST [vivacom-demo - SofiaBTest] FAIL [screenshots={must_override}/1580840661160/22b306c9-b51f-46c6-abc3-3b0df4dc3867/report.html | log={must_override}/1580840661160/22b306c9-b51f-46c6-abc3-3b0df4dc3867/test.log]
+2020-02-04 20:25:56 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 20:26:04 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 20:26:04 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 20:26:04 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 20:26:09 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:26:09 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [20:26:09 2020-02-04]
+2020-02-04 20:26:09 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 20:26:14 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 20:26:17 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 20:26:19 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 20:26:20 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 20:26:22 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 20:26:24 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 20:26:26 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 20:26:56 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 20:26:58 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 20:27:00 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:27:03 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:27:05 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 20:27:10 Messager [ERROR]  TEST [vivacom-demo - SofiaBTest] FAILED at [20:27:10 2020-02-04] - The product does not exist in the shopping cart expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.vivacom.demo.SofiaSbTest.SofiaBTest(SofiaSbTest.java:51)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2020-02-04 20:27:13 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:27:13 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-04 20:27:13 Messager [INFO] RESULT #1: TEST [vivacom-demo - SofiaBTest] FAIL [screenshots={must_override}/1580840764215/eb287a6c-fa62-41a4-9abf-f9ca8ff6bbad/report.html | log={must_override}/1580840764215/eb287a6c-fa62-41a4-9abf-f9ca8ff6bbad/test.log]
+2020-02-04 20:27:13 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 20:28:03 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 20:28:03 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 20:28:03 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 20:28:08 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:28:08 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [20:28:08 2020-02-04]
+2020-02-04 20:28:08 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 20:28:15 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 20:28:17 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 20:28:19 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 20:28:21 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 20:28:23 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 20:28:24 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 20:28:26 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 20:28:39 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 20:28:41 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 20:28:43 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:28:46 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:28:48 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 20:28:50 DriverListener [INFO] PASS: element 'ordersDetailsBtn' is clicked.
+2020-02-04 20:29:12 DriverListener [INFO] PASS: keys cleared in element 'clietNeighborhoodBox'.
+2020-02-04 20:29:13 DriverListener [INFO] PASS: keys 'Люлин' are sent to element 'clietNeighborhoodBox'.
+2020-02-04 20:29:15 DriverListener [INFO] PASS: keys cleared in element 'clientAdressBox'.
+2020-02-04 20:29:17 DriverListener [INFO] PASS: keys 'ул.Борис 3' are sent to element 'clientAdressBox'.
+2020-02-04 20:29:18 DriverListener [INFO] PASS: element 'selectDateAndTime' is clicked.
+2020-02-04 20:29:21 DriverListener [INFO] PASS: element '5' is clicked.
+2020-02-04 20:29:23 DriverListener [INFO] PASS: element '12:00' is clicked.
+2020-02-04 20:29:25 DriverListener [INFO] PASS: element '12:55' is clicked.
+2020-02-04 20:29:27 DriverListener [INFO] PASS: element 'finishOrderBtn' is clicked.
+2020-02-04 20:29:30 DriverListener [INFO] PASS: element 'backToProdcutsBtn' is clicked.
+2020-02-04 20:29:32 DriverListener [INFO] PASS: element 'orderIsEmptyBtn' is clicked.
+2020-02-04 20:29:34 DriverListener [INFO] PASS: element 'profileButton' is clicked.
+2020-02-04 20:29:36 DriverListener [INFO] PASS: element 'exitBtn' is clicked.
+2020-02-04 20:29:37 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] PASSED at [20:29:37 2020-02-04]
+2020-02-04 20:29:40 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:29:40 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-04 20:29:40 Messager [INFO] RESULT #1: TEST [vivacom-demo - SofiaBTest] PASS [screenshots={must_override}/1580840883562/d3b04e16-c8a2-49f3-8c3e-408e83089f8f/report.html | log={must_override}/1580840883562/d3b04e16-c8a2-49f3-8c3e-408e83089f8f/test.log]
+2020-02-04 20:29:40 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 20:46:03 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 20:46:03 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 20:46:03 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 20:46:08 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:46:08 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [20:46:08 2020-02-04]
+2020-02-04 20:46:08 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 20:46:09 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 20:46:11 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 20:46:13 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 20:46:15 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 20:46:17 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 20:46:19 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 20:46:21 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 20:46:30 DriverListener [ERROR] FAIL: element 'baniciBtn (By.xpath: /html/body/main/div/div[1]/nav/ul[1]/li[1]/a)' is not clicked!
+2020-02-04 20:46:39 ExtendedWebElement [WARN] Trying to do click by Actions due to the: element click intercepted: Element <a class="nod btn-dark hover-light current" href="%D0%B1%D0%B0%D0%BD%D0%B8%D1%86%D0%B8">...</a> is not clickable at point (595, 220). Other element would receive the click: <img src="thumbs/800x800/8924812130515115-kg-tikva.jpg" alt="Софийска Баница Пайо 90 с тиква и орехи ПОСТНА - 1.350кг" style="width: 800px;">
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'UXLT008', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\DEYAN~1.BAH\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webdriver.remote.sessionid: b9d2bb32ac312c98a53b0042404...}
+Session ID: b9d2bb32ac312c98a53b00424040ccef
+2020-02-04 20:46:40 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 20:46:43 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:46:46 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:46:49 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 20:46:51 DriverListener [INFO] PASS: element 'ordersDetailsBtn' is clicked.
+2020-02-04 20:47:14 DriverListener [INFO] PASS: keys cleared in element 'clietNeighborhoodBox'.
+2020-02-04 20:47:17 DriverListener [INFO] PASS: keys 'Люлин' are sent to element 'clietNeighborhoodBox'.
+2020-02-04 20:47:20 DriverListener [INFO] PASS: keys cleared in element 'clientAdressBox'.
+2020-02-04 20:47:23 DriverListener [INFO] PASS: keys 'ул.Борис 3' are sent to element 'clientAdressBox'.
+2020-02-04 20:47:26 DriverListener [INFO] PASS: element 'selectDateAndTime' is clicked.
+2020-02-04 20:47:31 DriverListener [INFO] PASS: element '5' is clicked.
+2020-02-04 20:47:36 DriverListener [INFO] PASS: element '13:00' is clicked.
+2020-02-04 20:47:40 DriverListener [INFO] PASS: element 'finishOrderBtn' is clicked.
+2020-02-04 20:47:48 Messager [ERROR]  TEST [vivacom-demo - SofiaBTest] FAILED at [20:47:48 2020-02-04] - Order is not ok expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.vivacom.demo.SofiaSbTest.SofiaBTest(SofiaSbTest.java:64)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2020-02-04 20:47:51 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:47:52 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-04 20:47:52 Messager [INFO] RESULT #1: TEST [vivacom-demo - SofiaBTest] FAIL [screenshots={must_override}/1580841963125/bc8a75e8-2fa5-4455-b746-2c857a31270e/report.html | log={must_override}/1580841963125/bc8a75e8-2fa5-4455-b746-2c857a31270e/test.log]
+2020-02-04 20:47:52 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2020-02-04 20:48:08 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.banicabg.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.unhandledPromptBehavior=accept
+================================================
+
+2020-02-04 20:48:08 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-04 20:48:08 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-04 20:48:14 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:48:14 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] STARTED at [20:48:14 2020-02-04]
+2020-02-04 20:48:14 Messager [INFO] INFO: url 'https://www.banicabg.com' is being opened...
+2020-02-04 20:48:15 DriverListener [INFO] INFO: url 'https://www.banicabg.com' is opened.
+2020-02-04 20:48:17 DriverListener [INFO] PASS: element 'inButton' is clicked.
+2020-02-04 20:48:19 DriverListener [INFO] PASS: keys cleared in element 'typeEmail'.
+2020-02-04 20:48:21 DriverListener [INFO] PASS: keys 'deyanbahrin@gmail.com' are sent to element 'typeEmail'.
+2020-02-04 20:48:23 DriverListener [INFO] PASS: keys cleared in element 'typePassword'.
+2020-02-04 20:48:25 DriverListener [INFO] PASS: keys 'DeyanBahrin' are sent to element 'typePassword'.
+2020-02-04 20:48:27 DriverListener [INFO] PASS: element 'loginButton' is clicked.
+2020-02-04 20:48:35 DriverListener [INFO] PASS: element 'baniciBtn' is clicked.
+2020-02-04 20:48:38 DriverListener [INFO] PASS: element 'banitsaOnBites' is clicked.
+2020-02-04 20:48:41 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:48:45 DriverListener [INFO] PASS: element 'By.cssSelector: a.add-to-cart' is clicked.
+2020-02-04 20:48:49 DriverListener [INFO] PASS: element 'shoppingCartBtn' is clicked.
+2020-02-04 20:48:53 DriverListener [INFO] PASS: element 'ordersDetailsBtn' is clicked.
+2020-02-04 20:49:16 DriverListener [INFO] PASS: keys cleared in element 'clietNeighborhoodBox'.
+2020-02-04 20:49:19 DriverListener [INFO] PASS: keys 'Люлин' are sent to element 'clietNeighborhoodBox'.
+2020-02-04 20:49:21 DriverListener [INFO] PASS: keys cleared in element 'clientAdressBox'.
+2020-02-04 20:49:24 DriverListener [INFO] PASS: keys 'ул.Борис 3' are sent to element 'clientAdressBox'.
+2020-02-04 20:49:27 DriverListener [INFO] PASS: element 'selectDateAndTime' is clicked.
+2020-02-04 20:49:33 DriverListener [INFO] PASS: element '5' is clicked.
+2020-02-04 20:49:38 DriverListener [INFO] PASS: element '13:00' is clicked.
+2020-02-04 20:49:42 DriverListener [INFO] PASS: element '13:30' is clicked.
+2020-02-04 20:49:45 DriverListener [INFO] PASS: element 'finishOrderBtn' is clicked.
+2020-02-04 20:49:50 DriverListener [INFO] PASS: element 'backToProdcutsBtn' is clicked.
+2020-02-04 20:49:53 DriverListener [INFO] PASS: element 'orderIsEmptyBtn' is clicked.
+2020-02-04 20:49:56 DriverListener [INFO] PASS: element 'profileButton' is clicked.
+2020-02-04 20:49:59 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'exitBtn (By.xpath: //a[@class='btn-exit'])' is not visible...
+2020-02-04 20:50:00 Messager [INFO]  TEST [vivacom-demo - SofiaBTest] PASSED at [20:50:00 2020-02-04]
+2020-02-04 20:50:04 DesktopFactory [INFO] Browser window was maximized
+2020-02-04 20:50:04 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-04 20:50:04 Messager [INFO] RESULT #1: TEST [vivacom-demo - SofiaBTest] PASS [screenshots={must_override}/1580842088797/683f76d2-0783-4c1d-b3cf-84986d2098e0/report.html | log={must_override}/1580842088797/683f76d2-0783-4c1d-b3cf-84986d2098e0/test.log]
+2020-02-04 20:50:04 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!

@@ -3,12 +3,14 @@ package com.vivacom.demo;
 import com.qaprosoft.carina.core.foundation.AbstractTest;
 import com.qaprosoft.carina.core.foundation.utils.ownership.MethodOwner;
 import com.vivacom.demo.gui.pages.LoginPageSB.*;
-import com.vivacom.demo.gui.pages.LoginPageSB.*;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 public class SofiaSbTest extends AbstractTest {
 
@@ -29,15 +31,26 @@ public class SofiaSbTest extends AbstractTest {
 
         /*Login and mainPage is returned.*/
         MainPageSB mainPageSB = loginPageSB.mainPage();
-        Assert.assertTrue(mainPageSB.selectProfile(), "Element is not present");
+        Assert.assertTrue(mainPageSB.isProfileSelected(), "Element is not present");
 
         /*First we open banitsa page thеn we open banitsaOnBites.*/
         Banitsa banitsa = mainPageSB.OpenBanitsaPage();
         BanitsaOnBites banitsaOnBites = banitsa.OpenBnitsaOnBitesPage();
 
-        /*Opens the OrdersPage and validate that the products are the same which we order.*/
-        OrdersPage ordersPage = banitsaOnBites.openOrdersPage();
-        Assert.assertTrue(ordersPage.compareTheOrder(), "This is not the products");
+        List<String> productsToOrder = new ArrayList<>();
+        productsToOrder.add("Хапки със сирене Пайо 90 - 1.150кг");
+        productsToOrder.add("Хапки със бекон и кашкавал Пайо 90 - 1.150кг");
+        banitsaOnBites.addProductsToCart(productsToOrder);
+        OrdersPage ordersPage = banitsaOnBites.clickShoppingCartButton();
+
+        Map<String,String> productsInCartByQuantity = ordersPage.getCartDetails();
+        for (String product : productsToOrder){
+            boolean productExistInCart = productsInCartByQuantity.containsKey(product);
+            String quantity = productsInCartByQuantity.get(product);
+            Assert.assertTrue(productExistInCart, "The product does not exist in the shopping cart");
+            Assert.assertEquals(quantity, "1", "The quantity is not one");
+        }
+
 
         /*fill all details about delivery and assert that invoiceIsOk*/
         DeliveryDetails deliveryDetails = ordersPage.details();
