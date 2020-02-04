@@ -28,9 +28,17 @@ public class Banitsa extends AbstractPage {
         return new BanitsaOnBites(getDriver());
     }
 
-    public void exitFromSystem(){
-        profileButton.click();
-        exitBtn.click();
+    public void addProductsToCart(List<String> productsToOrder) {
+
+        for (String productToOrder : productsToOrder) {
+            for(ExtendedWebElement existingProduct : existingProducts){
+                if(productToOrder.equals(existingProduct.findExtendedWebElement(By.cssSelector("h2")).getText())){
+                    existingProduct.findExtendedWebElement(By.cssSelector("a.add-to-cart")).click();
+                }
+            }
+
+        }
+
     }
 
 }
